@@ -1,0 +1,16 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://somewhere/JohnSmith/">
+    <vcard:EMAIL>
+      <vcard:internet>
+        <rdf:value>John@somewhere.com</rdf:value>
+      </vcard:internet>
+    </vcard:EMAIL>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>John</vcard:Given>
+      <vcard:Family>Smith</vcard:Family>
+    </vcard:N>
+    <vcard:FN>John Smith</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
