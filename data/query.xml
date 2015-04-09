@@ -1,0 +1,113 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://biomodels.net/model-qualifiers#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.1="http://biomodels.net/biology-qualifiers#"
+    xmlns:j.2="http://purl.org/dc/terms/"
+    xmlns:j.3="http://identifiers.org/biomodels.vocabulary#" > 
+  <rdf:Description rdf:about="http://identifiers.org/biomodels.db/BIOMD0000000001">
+    <j.2:created rdf:nodeID="A0"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000023"/>
+    <j.0:isDescribedBy rdf:resource="http://identifiers.org/pubmed/8983160"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000029"/>
+    <j.3:timeUnits rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000038#metaid_0000004"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000010"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000042"/>
+    <j.3:notes>Edelstein1996 - EPSP ACh event Model of a nicotinic Excitatory Post-Synaptic Potential in a Torpedo electric organ. Acetylcholine is not represented explicitely, but by an event that changes the constants of transition from unliganded to liganded. This model has initially been encoded using StochSim. This model is described in the article: A kinetic mechanism for nicotinic acetylcholine receptors based on multiple allosteric transitions. Edelstein SJ, Schaad O, Henry E, Bertrand D, Changeux JP. Biol. Cybern. 1996 Nov; 75(5):361-79 Abstract: Nicotinic acetylcholine receptors are transmembrane oligomeric proteins that mediate interconversions between open and closed channel states under the control of neurotransmitters. Fast in vitro chemical kinetics and in vivo electrophysiological recordings are consistent with the following multi-step scheme. Upon binding of agonists, receptor molecules in the closed but activatable resting state (the Basal state, B) undergo rapid transitions to states of higher affinities with either open channels (the Active state, A) or closed channels (the initial Inactivatable and fully Desensitized states, I and D). In order to represent the functional properties of such receptors, we have developed a kinetic model that links conformational interconversion rates to agonist binding and extends the general principles of the Monod-Wyman-Changeux model of allosteric transitions. The crucial assumption is that the linkage is controlled by the position of the interconversion transition states on a hypothetical linear reaction coordinate. Application of the model to the peripheral nicotine acetylcholine receptor (nAChR) accounts for the main properties of ligand-gating, including single-channel events, and several new relationships are predicted. Kinetic simulations reveal errors inherent in using the dose-response analysis, but justify its application under defined conditions. The model predicts that (in order to overcome the intrinsic stability of the B state and to produce the appropriate cooperativity) channel activation is driven by an A state with a Kd in the 50 nM range, hence some 140-fold stronger than the apparent affinity of the open state deduced previously. According to the model, recovery from the desensitized states may occur via rapid transit through the A state with minimal channel opening, thus without necessarily undergoing a distinct recovery pathway, as assumed in the standard 'cycle' model. Transitions to the desensitized states by low concentration 'pre-pulses' are predicted to occur without significant channel opening, but equilibrium values of IC50 can be obtained only with long pre-pulse times. Predictions are also made concerning allosteric effectors and their possible role in coincidence detection. In terms of future developments, the analysis presented here provides a physical basis for constructing more biologically realistic models of synaptic modulation that may be applied to artificial neural networks. This model is hosted on BioModels Database and identified by: BIOMD0000000001 . To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.</j.3:notes>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000021"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000028"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000003"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000037"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000018"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000020"/>
+    <j.2:modified rdf:nodeID="A1"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000056"/>
+    <j.3:compartment rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000002"/>
+    <j.0:is rdf:resource="http://identifiers.org/biomodels.db/MODEL6613849442"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000066"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000047"/>
+    <j.3:event rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_180306"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000030"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000041"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000046"/>
+    <j.3:substanceUnits rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000038#metaid_0000003"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000038"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000040"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000014"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000070"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000007"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000022"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000065"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000017"/>
+    <j.0:curated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.0:curated>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000064"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000011"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000050"/>
+    <j.1:isVersionOf rdf:resource="http://identifiers.org/go/GO:0019226"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000004"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000045"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000055"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000027"/>
+    <j.1:hasTaxon rdf:resource="http://identifiers.org/taxonomy/7787"/>
+    <j.3:name>Edelstein1996 - EPSP ACh event</j.3:name>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000026"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000069"/>
+    <j.3:areaUnits rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000511#_3b7729ea-2e77-45f0-9114-4ab5770cd3a3"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000068"/>
+    <j.1:isVersionOf rdf:resource="http://identifiers.org/go/GO:0007274"/>
+    <j.1:isVersionOf rdf:resource="http://identifiers.org/go/GO:0007166"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000059"/>
+    <j.3:lengthUnit rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000511#_3707a98b-31c6-41c5-9783-31490edea6ae"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000008"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000053"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000025"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000012"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000044"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000024"/>
+    <j.3:volumeUnits rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000454#_31df5c9b_91f4_4ab6_be2f_f7948ded2e4a"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000005"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000016"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000063"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000062"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000019"/>
+    <j.0:is rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000054"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000057"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000049"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000032"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000048"/>
+    <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000031"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000067"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000039"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000072"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000009"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000061"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000058"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000060"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000013"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000052"/>
+    <j.2:creator rdf:nodeID="A2"/>
+    <rdf:type rdf:resource="http://identifiers.org/biomodels.vocabulary#SBMLModel"/>
+    <j.3:species rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000006"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000051"/>
+    <j.3:parameter rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000043"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <vcard:Orgname>EMBL-EBI</vcard:Orgname>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <vcard:Given>Nicolas</vcard:Given>
+    <vcard:Family>Le NovÃ¨re</vcard:Family>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <j.2:W3CDTF>Wed Feb 02 14:56:11 GMT 2005</j.2:W3CDTF>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <vcard:ORG rdf:nodeID="A3"/>
+    <vcard:N rdf:nodeID="A4"/>
+    <vcard:EMAIL>lenov@ebi.ac.uk</vcard:EMAIL>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.2:W3CDTF>Tue Apr 29 14:33:01 BST 2014</j.2:W3CDTF>
+  </rdf:Description>
+</rdf:RDF>

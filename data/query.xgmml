@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph label="data/query.xml"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+	xmlns:j.1="http://biomodels.net/biology-qualifiers#"
+	xmlns:j.0="http://biomodels.net/model-qualifiers#"
+	xmlns:j.3="http://identifiers.org/biomodels.vocabulary#"
+	xmlns:j.2="http://purl.org/dc/terms/"
+	xmlns="http://www.cs.rpi.edu/XGMML" directed="1">
+ <node label="15" id="15">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000010"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="12" id="12">
+  <att name="displayName" type="string" value="http://identifiers.org/pubmed/8983160"/>
+  <att name="width" type="integer" value="37"/>
+ </node>
+ <node label="22" id="22">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000018"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="41" id="41">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000017"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="67" id="67">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000016"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="36" id="36">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000014"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="55" id="55">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000511#_3b7729ea-2e77-45f0-9114-4ab5770cd3a3"/>
+  <att name="width" type="integer" value="89"/>
+ </node>
+ <node label="87" id="87">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000013"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="64" id="64">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000012"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="44" id="44">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000011"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="17" id="17">
+  <att name="displayName" type="string" value="Edelstein1996 - EPSP ACh event Model of a nicotinic Excitatory Post-Synaptic Potential in a Torpedo electric organ. Acetylcholine is not represented explicitely, but by an event that changes the constants of transition from unliganded to liganded. This model has initially been encoded using StochSim. This model is described in the article: A kinetic mechanism for nicotinic acetylcholine receptors based on multiple allosteric transitions. Edelstein SJ, Schaad O, Henry E, Bertrand D, Changeux JP. Biol. Cybern. 1996 Nov; 75(5):361-79 Abstract: Nicotinic acetylcholine receptors are transmembrane oligomeric proteins that mediate interconversions between open and closed channel states under the control of neurotransmitters. Fast in vitro chemical kinetics and in vivo electrophysiological recordings are consistent with the following multi-step scheme. Upon binding of agonists, receptor molecules in the closed but activatable resting state (the Basal state, B) undergo rapid transitions to states of higher affinities with either open channels (the Active state, A) or closed channels (the initial Inactivatable and fully Desensitized states, I and D). In order to represent the functional properties of such receptors, we have developed a kinetic model that links conformational interconversion rates to agonist binding and extends the general principles of the Monod-Wyman-Changeux model of allosteric transitions. The crucial assumption is that the linkage is controlled by the position of the interconversion transition states on a hypothetical linear reaction coordinate. Application of the model to the peripheral nicotine acetylcholine receptor (nAChR) accounts for the main properties of ligand-gating, including single-channel events, and several new relationships are predicted. Kinetic simulations reveal errors inherent in using the dose-response analysis, but justify its application under defined conditions. The model predicts that (in order to overcome the intrinsic stability of the B state and to produce the appropriate cooperativity) channel activation is driven by an A state with a Kd in the 50 nM range, hence some 140-fold stronger than the apparent affinity of the open state deduced previously. According to the model, recovery from the desensitized states may occur via rapid transit through the A state with minimal channel opening, thus without necessarily undergoing a distinct recovery pathway, as assumed in the standard 'cycle' model. Transitions to the desensitized states by low concentration 'pre-pulses' are predicted to occur without significant channel opening, but equilibrium values of IC50 can be obtained only with long pre-pulse times. Predictions are also made concerning allosteric effectors and their possible role in coincidence detection. In terms of future developments, the analysis presented here provides a physical basis for constructing more biologically realistic models of synaptic modulation that may be applied to artificial neural networks. This model is hosted on BioModels Database and identified by: BIOMD0000000001 . To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information."/>
+  <att name="width" type="integer" value="3458"/>
+ </node>
+ <node label="57" id="57">
+  <att name="displayName" type="string" value="http://identifiers.org/go/GO:0007274"/>
+  <att name="width" type="integer" value="36"/>
+ </node>
+ <node label="77" id="77">
+  <att name="displayName" type="string" value="[]"/>
+  <att name="width" type="integer" value="2"/>
+ </node>
+ <node label="84" id="84">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000061"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="86" id="86">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000060"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="0" id="0">
+  <att name="displayName" type="string" value="[]"/>
+  <att name="width" type="integer" value="2"/>
+ </node>
+ <node label="6" id="6">
+  <att name="displayName" type="string" value="[]"/>
+  <att name="width" type="integer" value="2"/>
+ </node>
+ <node label="2" id="2">
+  <att name="displayName" type="string" value="[]"/>
+  <att name="width" type="integer" value="2"/>
+ </node>
+ <node label="40" id="40">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000065"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="3" id="3">
+  <att name="displayName" type="string" value="[]"/>
+  <att name="width" type="integer" value="2"/>
+ </node>
+ <node label="43" id="43">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000064"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="70" id="70">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000063"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="71" id="71">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000019"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="72" id="72">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000062"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="54" id="54">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000069"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="56" id="56">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000068"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="80" id="80">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000067"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="27" id="27">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000066"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="18" id="18">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000021"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="23" id="23">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000020"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="1" id="1">
+  <att name="displayName" type="string" value="lenov@ebi.ac.uk"/>
+  <att name="width" type="integer" value="15"/>
+ </node>
+ <node label="4" id="4">
+  <att name="displayName" type="string" value="Le NovÃ¨re"/>
+  <att name="width" type="integer" value="10"/>
+ </node>
+ <node label="14" id="14">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000038#metaid_0000004"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="5" id="5">
+  <att name="displayName" type="string" value="Nicolas"/>
+  <att name="width" type="integer" value="7"/>
+ </node>
+ <node label="89" id="89">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.vocabulary#SBMLModel"/>
+  <att name="width" type="integer" value="53"/>
+ </node>
+ <node label="8" id="8">
+  <att name="displayName" type="string" value="EMBL-EBI"/>
+  <att name="width" type="integer" value="8"/>
+ </node>
+ <node label="13" id="13">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000029"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="51" id="51">
+  <att name="displayName" type="string" value="http://identifiers.org/taxonomy/7787"/>
+  <att name="width" type="integer" value="36"/>
+ </node>
+ <node label="7" id="7">
+  <att name="displayName" type="string" value="Tue Apr 29 14:33:01 BST 2014"/>
+  <att name="width" type="integer" value="28"/>
+ </node>
+ <node label="19" id="19">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000028"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="33" id="33">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000038#metaid_0000003"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="52" id="52">
+  <att name="displayName" type="string" value="Edelstein1996 - EPSP ACh event"/>
+  <att name="width" type="integer" value="30"/>
+ </node>
+ <node label="50" id="50">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000027"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="53" id="53">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000026"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="63" id="63">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000025"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="66" id="66">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000024"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="92" id="92">
+  <att name="displayName" type="string" value="Wed Feb 02 14:56:11 GMT 2005"/>
+  <att name="width" type="integer" value="28"/>
+ </node>
+ <node label="11" id="11">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000023"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="39" id="39">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000022"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="45" id="45">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000050"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="58" id="58">
+  <att name="displayName" type="string" value="http://identifiers.org/go/GO:0007166"/>
+  <att name="width" type="integer" value="36"/>
+ </node>
+ <node label="73" id="73">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000054"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="62" id="62">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000053"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="88" id="88">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000052"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="91" id="91">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000051"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="85" id="85">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000058"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="74" id="74">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000057"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="24" id="24">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000056"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="49" id="49">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000055"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="59" id="59">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000059"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="76" id="76">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000032"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="79" id="79">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000031"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="30" id="30">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000030"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="9" id="9">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001"/>
+  <att name="width" type="integer" value="51"/>
+ </node>
+ <node label="60" id="60">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000511#_3707a98b-31c6-41c5-9783-31490edea6ae"/>
+  <att name="width" type="integer" value="89"/>
+ </node>
+ <node label="42" id="42">
+  <att name="displayName" type="string" value="1^^http://www.w3.org/2001/XMLSchema#integer"/>
+  <att name="width" type="integer" value="43"/>
+ </node>
+ <node label="10" id="10">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000043"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="16" id="16">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000042"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="31" id="31">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000041"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="35" id="35">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000040"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="28" id="28">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000047"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="32" id="32">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000046"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="46" id="46">
+  <att name="displayName" type="string" value="http://identifiers.org/go/GO:0019226"/>
+  <att name="width" type="integer" value="36"/>
+ </node>
+ <node label="69" id="69">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000454#_31df5c9b_91f4_4ab6_be2f_f7948ded2e4a"/>
+  <att name="width" type="integer" value="89"/>
+ </node>
+ <node label="48" id="48">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000045"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="65" id="65">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000044"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="75" id="75">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000049"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="78" id="78">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000048"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="37" id="37">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000007"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="90" id="90">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000006"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="68" id="68">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000005"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="47" id="47">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000004"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="20" id="20">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000003"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="25" id="25">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000002"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="83" id="83">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000072"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="38" id="38">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000070"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="29" id="29">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_180306"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="81" id="81">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000009"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="61" id="61">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#_000008"/>
+  <att name="width" type="integer" value="59"/>
+ </node>
+ <node label="26" id="26">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/MODEL6613849442"/>
+  <att name="width" type="integer" value="51"/>
+ </node>
+ <node label="82" id="82">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000039"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="34" id="34">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000038"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <node label="21" id="21">
+  <att name="displayName" type="string" value="http://identifiers.org/biomodels.db/BIOMD0000000001#metaid_0000037"/>
+  <att name="width" type="integer" value="66"/>
+ </node>
+ <edge label="0-&gt;1" source="0" target="1">
+  <att name="displayName" type="string" value="vcard:EMAIL"/>
+ </edge>
+ <edge label="0-&gt;2" source="0" target="2">
+  <att name="displayName" type="string" value="vcard:N"/>
+ </edge>
+ <edge label="0-&gt;3" source="0" target="3">
+  <att name="displayName" type="string" value="vcard:ORG"/>
+ </edge>
+ <edge label="2-&gt;4" source="2" target="4">
+  <att name="displayName" type="string" value="vcard:Family"/>
+ </edge>
+ <edge label="2-&gt;5" source="2" target="5">
+  <att name="displayName" type="string" value="vcard:Given"/>
+ </edge>
+ <edge label="6-&gt;7" source="6" target="7">
+  <att name="displayName" type="string" value="j.2:W3CDTF"/>
+ </edge>
+ <edge label="3-&gt;8" source="3" target="8">
+  <att name="displayName" type="string" value="vcard:Orgname"/>
+ </edge>
+ <edge label="9-&gt;10" source="9" target="10">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;11" source="9" target="11">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;12" source="9" target="12">
+  <att name="displayName" type="string" value="j.0:isDescribedBy"/>
+ </edge>
+ <edge label="9-&gt;13" source="9" target="13">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;14" source="9" target="14">
+  <att name="displayName" type="string" value="j.3:timeUnits"/>
+ </edge>
+ <edge label="9-&gt;15" source="9" target="15">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;16" source="9" target="16">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;17" source="9" target="17">
+  <att name="displayName" type="string" value="j.3:notes"/>
+ </edge>
+ <edge label="9-&gt;18" source="9" target="18">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;19" source="9" target="19">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;20" source="9" target="20">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;21" source="9" target="21">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;22" source="9" target="22">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;23" source="9" target="23">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;24" source="9" target="24">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;25" source="9" target="25">
+  <att name="displayName" type="string" value="j.3:compartment"/>
+ </edge>
+ <edge label="9-&gt;26" source="9" target="26">
+  <att name="displayName" type="string" value="j.0:is"/>
+ </edge>
+ <edge label="9-&gt;27" source="9" target="27">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;28" source="9" target="28">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;29" source="9" target="29">
+  <att name="displayName" type="string" value="j.3:event"/>
+ </edge>
+ <edge label="9-&gt;30" source="9" target="30">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;31" source="9" target="31">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;32" source="9" target="32">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;33" source="9" target="33">
+  <att name="displayName" type="string" value="j.3:substanceUnits"/>
+ </edge>
+ <edge label="9-&gt;34" source="9" target="34">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;35" source="9" target="35">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;36" source="9" target="36">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;37" source="9" target="37">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;38" source="9" target="38">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;39" source="9" target="39">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;40" source="9" target="40">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;41" source="9" target="41">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;42" source="9" target="42">
+  <att name="displayName" type="string" value="j.0:curated"/>
+ </edge>
+ <edge label="9-&gt;43" source="9" target="43">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;44" source="9" target="44">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;45" source="9" target="45">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;46" source="9" target="46">
+  <att name="displayName" type="string" value="j.1:isVersionOf"/>
+ </edge>
+ <edge label="9-&gt;47" source="9" target="47">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;48" source="9" target="48">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;49" source="9" target="49">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;50" source="9" target="50">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;51" source="9" target="51">
+  <att name="displayName" type="string" value="j.1:hasTaxon"/>
+ </edge>
+ <edge label="9-&gt;52" source="9" target="52">
+  <att name="displayName" type="string" value="j.3:name"/>
+ </edge>
+ <edge label="9-&gt;53" source="9" target="53">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;54" source="9" target="54">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;6" source="9" target="6">
+  <att name="displayName" type="string" value="j.2:modified"/>
+ </edge>
+ <edge label="9-&gt;55" source="9" target="55">
+  <att name="displayName" type="string" value="j.3:areaUnits"/>
+ </edge>
+ <edge label="9-&gt;56" source="9" target="56">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;57" source="9" target="57">
+  <att name="displayName" type="string" value="j.1:isVersionOf"/>
+ </edge>
+ <edge label="9-&gt;0" source="9" target="0">
+  <att name="displayName" type="string" value="j.2:creator"/>
+ </edge>
+ <edge label="9-&gt;58" source="9" target="58">
+  <att name="displayName" type="string" value="j.1:isVersionOf"/>
+ </edge>
+ <edge label="9-&gt;59" source="9" target="59">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;60" source="9" target="60">
+  <att name="displayName" type="string" value="j.3:lengthUnit"/>
+ </edge>
+ <edge label="9-&gt;61" source="9" target="61">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;62" source="9" target="62">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;63" source="9" target="63">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;64" source="9" target="64">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;65" source="9" target="65">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;66" source="9" target="66">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;67" source="9" target="67">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;68" source="9" target="68">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;69" source="9" target="69">
+  <att name="displayName" type="string" value="j.3:volumeUnits"/>
+ </edge>
+ <edge label="9-&gt;70" source="9" target="70">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;71" source="9" target="71">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;72" source="9" target="72">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;9" source="9" target="9">
+  <att name="displayName" type="string" value="j.0:is"/>
+ </edge>
+ <edge label="9-&gt;73" source="9" target="73">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;74" source="9" target="74">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;75" source="9" target="75">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;76" source="9" target="76">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;77" source="9" target="77">
+  <att name="displayName" type="string" value="j.2:created"/>
+ </edge>
+ <edge label="9-&gt;78" source="9" target="78">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;79" source="9" target="79">
+  <att name="displayName" type="string" value="j.3:reaction"/>
+ </edge>
+ <edge label="9-&gt;80" source="9" target="80">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;81" source="9" target="81">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;82" source="9" target="82">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;83" source="9" target="83">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;84" source="9" target="84">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;85" source="9" target="85">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;86" source="9" target="86">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;87" source="9" target="87">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;88" source="9" target="88">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="9-&gt;89" source="9" target="89">
+  <att name="displayName" type="string" value="rdf:type"/>
+ </edge>
+ <edge label="9-&gt;90" source="9" target="90">
+  <att name="displayName" type="string" value="j.3:species"/>
+ </edge>
+ <edge label="9-&gt;91" source="9" target="91">
+  <att name="displayName" type="string" value="j.3:parameter"/>
+ </edge>
+ <edge label="77-&gt;92" source="77" target="92">
+  <att name="displayName" type="string" value="j.2:W3CDTF"/>
+ </edge>
+</graph>

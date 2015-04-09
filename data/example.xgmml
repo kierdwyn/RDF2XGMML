@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph label="data/example.xml"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+	xmlns="http://www.cs.rpi.edu/XGMML" directed="1">
+ <node label="2" id="2">
+  <att name="displayName" type="string" value="John"/>
+  <att name="width" type="integer" value="4"/>
+ </node>
+ <node label="1" id="1">
+  <att name="displayName" type="string" value="Smith"/>
+  <att name="width" type="integer" value="5"/>
+ </node>
+ <node label="4" id="4">
+  <att name="displayName" type="string" value="John Smith"/>
+  <att name="width" type="integer" value="10"/>
+ </node>
+ <node label="5" id="5">
+  <att name="displayName" type="string" value="[]"/>
+  <att name="width" type="integer" value="2"/>
+ </node>
+ <node label="6" id="6">
+  <att name="displayName" type="string" value="John@somewhere.com"/>
+  <att name="width" type="integer" value="18"/>
+ </node>
+ <node label="0" id="0">
+  <att name="displayName" type="string" value="[]"/>
+  <att name="width" type="integer" value="2"/>
+ </node>
+ <node label="7" id="7">
+  <att name="displayName" type="string" value="http://www.w3.org/2001/vcard-rdf/3.0#internet"/>
+  <att name="width" type="integer" value="45"/>
+ </node>
+ <node label="3" id="3">
+  <att name="displayName" type="string" value="http://somewhere/JohnSmith/"/>
+  <att name="width" type="integer" value="27"/>
+ </node>
+ <edge label="0-&gt;1" source="0" target="1">
+  <att name="displayName" type="string" value="vcard:Family"/>
+ </edge>
+ <edge label="0-&gt;2" source="0" target="2">
+  <att name="displayName" type="string" value="vcard:Given"/>
+ </edge>
+ <edge label="3-&gt;4" source="3" target="4">
+  <att name="displayName" type="string" value="vcard:FN"/>
+ </edge>
+ <edge label="3-&gt;0" source="3" target="0">
+  <att name="displayName" type="string" value="vcard:N"/>
+ </edge>
+ <edge label="3-&gt;5" source="3" target="5">
+  <att name="displayName" type="string" value="vcard:EMAIL"/>
+ </edge>
+ <edge label="5-&gt;6" source="5" target="6">
+  <att name="displayName" type="string" value="rdf:value"/>
+ </edge>
+ <edge label="5-&gt;7" source="5" target="7">
+  <att name="displayName" type="string" value="rdf:type"/>
+ </edge>
+</graph>
