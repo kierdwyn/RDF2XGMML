@@ -4,27 +4,33 @@ class Edge {
 	private int source;
 	private int target;
 	private String label;
-	private String dispName;
+	private String[][] att = { { "displayName", "string", "" },
+			 { "sourceName", "String", "" },{"targetName","String",""}};
 	
-	Edge(int s, int t, String name){
-		source = s;
-		target = t;
-		label = s + "-&gt;" + t;
-		dispName = name;
+	Edge(Node s, Node t, String name){
+		source = s.getId();
+		target = t.getId();
+		label = source + "-&gt;" + target;
+		att[0][2] = name;
+		att[1][2] = s.getName();
+		att[2][2] = t.getName();
 	}
 	
 	public String print2GML(){
 		String result = new String();
 		result += " edge [\n  source " + source + "\n  target " + target
-				+ "\n  label \"" + label + "\"\n displayName \"" + dispName
+				+ "\n  label \"" + label + "\"\n displayName \"" + att[0][2]
 				+ "\"\n]";
 		return result;
 	}
 	
 	public String print2XGMML(){
 		String result = new String();
-		result += " <edge label=\"" + label + "\" source=\"" + source + "\" target=\"" + target
-				+"\">\n  <att name=\"displayName\" type=\"string\" value=\"" + dispName + "\"/>\n";
+		result += " <edge label=\"" + label + "\" source=\"" + source + "\" target=\"" + target +"\">\n";
+		for (int i = 0; i < att.length; i++) {
+			result += "  <att name=\"" + att[i][0] + "\" type=\"" + att[i][1]
+					+ "\" value=\"" + att[i][2] + "\"/>\n";
+		}
 		result += " </edge>";
 		return result;
 	}

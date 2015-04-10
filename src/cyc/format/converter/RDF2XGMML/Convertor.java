@@ -91,14 +91,14 @@ public abstract class Convertor {
 	}
 
 	protected void addEdge(String s, RDFNode t, String l) {
-		int sId = nodeList.get(s).getId();
-		int tId;
+		Node source = nodeList.get(s);
+		Node target;
 		if (t.isLiteral()) {
-			tId = nodeCount - 1;
+			target = nodeList.get("id:"+(nodeCount - 1));
 		} else {
-			tId = nodeList.get(t.toString()).getId();
+			target = nodeList.get(t.toString());
 		}
-		Edge e = new Edge(sId, tId, l);
+		Edge e = new Edge(source, target, l);
 		edgeList.add(e);
 	}
 }

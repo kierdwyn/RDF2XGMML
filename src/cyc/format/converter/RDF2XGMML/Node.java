@@ -41,4 +41,8 @@ class Node {
 	public int getId() {
 		return id;
 	}
+	
+	public String getName(){
+		return att[0][2];
+	}
 }
