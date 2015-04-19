@@ -79,9 +79,13 @@ public abstract class Convertor {
 		String name = key;
 		if (rdfN.isLiteral()) {
 			key = "id:" + nodeCount;
-		}
-		if (rdfN.isAnon()) {
+		}else if (rdfN.isAnon()) {
 			name = "[]";
+		}else{
+			Resource r = rdfN.asResource();
+			String s = rdfN.getModel().getNsURIPrefix(r.getNameSpace());
+			if (!(s==null))
+				name = s + ":" + r.getLocalName();
 		}
 		if (!nodeList.containsKey(key)) {
 			Node n = new Node(nodeCount, name);

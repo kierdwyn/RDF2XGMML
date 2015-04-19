@@ -33,7 +33,6 @@ public class XGMMLConvertor extends Convertor {
 
 	@Override
 	String print() {
-		// TODO Auto-generated method stub
 		String result = new String();
 		result += "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n"
 				+ "<graph label=\"" + graphLabel +"\"\n";

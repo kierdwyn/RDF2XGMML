@@ -4,7 +4,9 @@
     xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
     xmlns:j.1="http://biomodels.net/biology-qualifiers#"
     xmlns:j.2="http://purl.org/dc/terms/"
-    xmlns:j.3="http://identifiers.org/biomodels.vocabulary#" > 
+    xmlns:j.3="http://identifiers.org/biomodels.vocabulary#"
+    xmlns:BIOMD0000000001="http://identifiers.org/biomodels.db/BIOMD0000000001#"
+    xmlns:biomodels.db="http://identifiers.org/biomodels.db/" > 
   <rdf:Description rdf:about="http://identifiers.org/biomodels.db/BIOMD0000000001">
     <j.2:created rdf:nodeID="A0"/>
     <j.3:reaction rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000001#_000023"/>
