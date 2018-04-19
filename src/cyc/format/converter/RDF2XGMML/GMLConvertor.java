@@ -12,6 +12,7 @@ public class GMLConvertor extends Convertor {
 		// TODO Auto-generated method stub
 		String result = new String();
 		result += "graph [\n";
+		result += "directed 1\n";
 		for (Entry<String, Node> item:nodeList.entrySet()){
 			result += item.getValue().print2GML() + "\n";
 		}
