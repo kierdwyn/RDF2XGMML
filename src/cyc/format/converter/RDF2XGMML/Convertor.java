@@ -6,14 +6,16 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
-import com.hp.hpl.jena.rdf.model.Property;
-import com.hp.hpl.jena.rdf.model.RDFNode;
-import com.hp.hpl.jena.rdf.model.Resource;
-import com.hp.hpl.jena.rdf.model.Statement;
-import com.hp.hpl.jena.rdf.model.StmtIterator;
-import com.hp.hpl.jena.util.FileManager;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.Statement;
+import org.apache.jena.rdf.model.StmtIterator;
+import org.apache.jena.riot.RDFDataMgr;
+import org.apache.jena.sparql.util.ModelUtils;
+import org.apache.jena.util.FileManager;
 
 public abstract class Convertor {
 	HashMap<String, Node> nodeList;
@@ -50,15 +52,7 @@ public abstract class Convertor {
 	abstract String print();
 
 	Model readModel(String path) {
-		// check if file existed.
-		InputStream in = FileManager.get().open(path);
-		if (in == null) {
-			throw new IllegalArgumentException("File: " + path + " not found");
-		}
-		// create model and read from file.
-		Model model = ModelFactory.createDefaultModel();
-		model.read(path);
-		return model;
+		return RDFDataMgr.loadModel(path);
 	}
 
 	protected void insertStmt(Statement s, Model m) {
